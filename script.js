@@ -11,6 +11,7 @@ var buttonElement = createElements("button", "Este é o main")
 buttonElement.addEventListener('click', changeP2)
 var p2Element = createElements("p")
 p2Element.id = "p2"
+p2Element.style.color = "#FF0000"
 
 var footerElement = createElements("footer")
 var pElementFooter = createElements("p", "Este é o footer")
